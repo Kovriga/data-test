@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 80px;
+}
+
+#app {
+  height: 100vh;
+}
+
+.btn__primary {
+  gap: 10px;
+  border-radius: 15px;
+  padding: 16px 24px;
+  background: #8529CE;
+  border: 1px #8529CE solid;
+  width: 250px;
+  transition: background 0.3s ease;
+}
+
+
+.btn__primary:hover {
+  border: 1px #FDB941 solid;
+  background: #FDB941;
+  color: #ffffff;
+}
+
+.btn__white {
+  gap: 10px;
+  width: 250px;
+  border-radius: 15px;
+  padding: 16px 24px;
+  background: none;
+  border: 1px #8529CE solid;
+  transition: background 0.3s ease;
+}
+
+.btn__white:hover {
+  border: 1px #FDB941 solid;
+  background: #FDB941;
+  color: #ffffff;
+}
+
+
+.btn__red {
+  gap: 10px;
+  border-radius: 15px;
+  padding: 16px 24px;
+  background: #E66385;
+  border: 1px #E66385 solid;
+  width: 250px;
+  transition: background 0.3s ease;
+}
+
+.btn__red:hover {
+  border: 1px #FDB941 solid;
+  background: #FDB941;
+  color: #ffffff;
+}
