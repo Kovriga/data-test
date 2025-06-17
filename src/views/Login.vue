@@ -4,7 +4,7 @@
 <template>
   <div class="bg-[url(/src/assets/img/login.png)] bg-cover py-[40px] px-[90px]">
     <div class="flex justify-end-safe">
-      <button class="btn__white text-2xl text-[#8529CE]">Регистрация</button>
+      <router-link class="btn__white text-2xl text-[#8529CE] text-center" to="/register">Регистрация</router-link>
     </div>
     <form class="flex flex-col items-center mt-[120px]">
       <p class="text-4xl text-[#8529CE] font-bold mb-[60px]">Вход</p>

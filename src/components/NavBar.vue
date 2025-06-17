@@ -1,5 +1,3 @@
-<script setup>
-</script>
 <template>
   <div class="flex header">
     <div class="container justify-between flex text-white font-semibold">
